@@ -17,7 +17,7 @@ namespace sqltest
             try 
             { 
                 SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
-                builder.DataSource = "yourservenamehere.database.windows.net"; 
+                builder.DataSource = "yourservernamehere.database.windows.net"; 
                 builder.UserID = "yourusername";            
                 builder.Password = "yourpassword";     
                 builder.InitialCatalog = "yourdatabasename";
